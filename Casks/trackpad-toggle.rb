@@ -1,6 +1,6 @@
 cask "trackpad-toggle" do
-  version "1.3.0"
-  sha256 "1c51a16db02850e1c38a58618dd39f2a6f754642b733833a4aa8950d8357b398"
+  version "1.3.1"
+  sha256 "69da54dde6496d52ed2ec10909f5ade6d3c26a8ddb922a099f9b7a9085fa9777"
 
   url "https://github.com/rajanraj2/trackpad-toggle/releases/download/v#{version}/TrackpadToggle.dmg"
   name "Trackpad Toggle"
