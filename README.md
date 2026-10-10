@@ -1,0 +1,36 @@
+# Homebrew Tap for Rajan's macOS Utilities
+
+Official Homebrew tap for installing macOS applications and utilities.
+
+## How do I install these formulae / casks?
+
+Users can install any cask directly in **a single command** without running `brew tap` first:
+
+```bash
+brew install --cask rajanraj2/tap/<cask-name>
+```
+
+---
+
+## Available Casks
+
+### [Trackpad Toggle](https://github.com/rajanraj2/trackpad-toggle)
+
+A lightweight native macOS menu-bar utility that lets you disable and re-enable your MacBook's built-in trackpad using a configurable global shortcut.
+
+```bash
+# Install in one command
+brew install --cask rajanraj2/tap/trackpad-toggle
+
+# Upgrade
+brew upgrade --cask trackpad-toggle
+
+# Clean uninstall
+brew uninstall --cask trackpad-toggle
+```
+
+---
+
+## Documentation
+
+`brew help`, `man brew`, or visit [Homebrew Documentation](https://docs.brew.sh).
