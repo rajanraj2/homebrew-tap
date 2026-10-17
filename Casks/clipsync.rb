@@ -1,5 +1,5 @@
 cask "clipsync" do
-  version "0.1.2"
+  version "0.1.3"
   sha256 :no_check # Or specific SHA-256 for release assets
 
   url "https://github.com/rajanraj2/clipsync/releases/download/v#{version}/ClipSync-macOS.dmg"
@@ -7,7 +7,7 @@ cask "clipsync" do
   desc "Universal clipboard, synchronization and content sharing ecosystem"
   homepage "https://github.com/rajanraj2/clipsync"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "ClipSync.app"
 
