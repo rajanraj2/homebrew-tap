@@ -29,6 +29,20 @@ brew upgrade --cask trackpad-toggle
 brew uninstall --cask trackpad-toggle
 ```
 
+### [ClipSync](https://github.com/rajanraj2/clipsync)
+
+Universal clipboard, synchronization, and content-sharing ecosystem across macOS, Android, Linux, and Web.
+
+```bash
+# Install in one command (installs ClipSync.app to /Applications and 'clipsync' CLI)
+brew install --cask rajanraj2/tap/clipsync
+
+# Upgrade to the latest release
+brew upgrade --cask clipsync
+
+# Uninstall cleanly
+brew uninstall --cask clipsync
+```
 ---
 
 ## Documentation
