@@ -14,6 +14,21 @@ brew install --cask rajanraj2/tap/<cask-name>
 
 ## Available Casks
 
+### [Bridge](https://github.com/rajanraj2/bridge)
+
+Local-first continuity application connecting Android and macOS devices (bidirectional clipboard, notifications, file and link sharing).
+
+```bash
+# Install in one command
+brew install --cask rajanraj2/tap/bridge
+
+# Upgrade
+brew upgrade --cask bridge
+
+# Clean uninstall
+brew uninstall --cask bridge
+```
+
 ### [Trackpad Toggle](https://github.com/rajanraj2/trackpad-toggle)
 
 A lightweight native macOS menu-bar utility that lets you disable and re-enable your MacBook's built-in trackpad using a configurable global shortcut.
@@ -43,6 +58,7 @@ brew upgrade --cask clipsync
 # Uninstall cleanly
 brew uninstall --cask clipsync
 ```
+
 ---
 
 ## Documentation
